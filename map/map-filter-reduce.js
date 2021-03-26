@@ -48,7 +48,13 @@ const phaseScore =[
     {name: 'Uzi', score:1600},
     {name: 'doublelift', score:1500},
     {name: 'Kami', score:1400},    
-    {name: 'Bjergsen', score:1700}
+    {name: 'Bjergsen', score:1700},
+    {name:'Faker', score:1200},
+    {name: 'Huni', score:1100},
+    {name: 'Uzi', score:1300},
+    {name: 'doublelift', score:1200},
+    {name: 'Kami', score:1400},    
+    {name: 'Bjergsen', score:1500}
 ]
 
 const huniScore = phaseScore.reduce((accumulator,phaseScore)=>{
